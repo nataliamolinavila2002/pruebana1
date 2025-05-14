@@ -1,0 +1,41 @@
+
+root{
+	--color-general: #66615b;
+    --color-titulos: #111111;
+    --fondo-azul: #f5fafd; 
+    --color-iconos-naranja: #f5593d;
+    --color-iconos-gris: #888; 
+    --fondo-footer: #252422;
+    --letra-footer: #fff;
+}
+
+body{
+    font-size: 14px;
+}
+
+#hero{
+	padding-bottom: 5%;
+}
+
+.hero{
+	background-image: url("../img/bg-site.jpeg")
+}
+
+.section{
+	padding-top: 8%;
+	padding-bottom: 6%;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: var(--color-iconos-gris);
+	margin: 20px auto;
+	align-content: flex-start;
+}
+
+
+#showcase{
+	padding-bottom: 10%;
+}
